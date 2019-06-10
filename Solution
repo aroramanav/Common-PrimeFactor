@@ -17,9 +17,7 @@ public class Main
         for(int i = 2; i<=(int)Math.min(a1,a2); i++)
         {
             if(isprime(i) && a1%i==0 && a2%i==0)
-            {
-                x=i;
-            }
+            x=i;
         }
         return x;
     }
